@@ -45,6 +45,7 @@ object WallService {
                     message = posts[index].message,
                   //  publishDate = posts[index].publishDate
                 )
+                return true
             }
         }
         return false
